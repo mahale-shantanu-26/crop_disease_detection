@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAKE A PICTURE"
+        android:id="@+id/takePicture"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OPEN FROM GALLERY"
+        android:id="@+id/getFromGallery"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:src="@mipmap/ic_launcher"
+        android:rotation="90"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:id="@+id/imgv"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHECK HEALTH"
+        android:id="@+id/diagnose"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+    
+    
+    <!--<ImageButton-->
+        <!--android:id="@+id/imgbutton"-->
+        <!--android:layout_width="300"-->
+        <!--android:layout_height="400"-->
+        <!--android:contentDescription="@string/Camera"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+</LinearLayout>
